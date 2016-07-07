@@ -84,7 +84,7 @@ suite('register-type-extensions', function() {
       // assertNotInstanceOf(fooNewed, HTMLUnknownElement);
 
       test('custom tag constructor', function() {
-        assert.equal('a', 'b');
+        assert.equal('a', 'b ');
       });
     });
 
